@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario elaborado</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+<body>
+    <h1>Formulario para clientes</h1>
+        <fieldset>
+            <legend> Dados pessoais</legend>
+        <p>Nome completo: <input type="text"></p>
+        <p>Telefone: <input type="tel" required placeholder="(xx) xxxxx-xxxx"></p>
+        <p>E-mail: <input type="text"></p>
+        <p>Idade: <input type="number"></p>
+        <p>Endereço: <input type="text"></p>
+        <p>Cidade: <input type="text"></p>
+        <label>Estado:</label>
+        <select name="Estado">
+            <option value="SP"> São Paulo </option>
+            <option value="RJ"> Rio de Janeiro</option>
+            <option value="ES"> Espirito Santo</option>
+            <option value="MG"> Minas Gerais</option>
+            <option value="DF"> Destrito Federal</option>
+            <option value="AL">Alagoas</option>
+            </select>
+            <p>Sexo:<input type="radio" name="sexo" value="masculino" id="masculino" checked> <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" value="feminino" id="feminino"> <label for="feminino">Feminino</label>
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Dados Profissionais</legend>
+<label>Escolaridade:</label>
+<select name="Escolaridade">
+    <option value="em">Ensino Medio</option>
+        <option value="emi">Ensino Médio incompleto</option>
+        <option value="es"> Ensino Superior</option>
+        <option value="esi">Ensino Superior Incompleto</option>
+        <option value="ef">Ensino Fundamnetal</option>
+</select>
+<p>Area de atuação: <input type="radio" name="profissão" value="administração" id="administração" checked> <label for="administração">Administração</label>
+    <input type="radio" name="profissão" value="tecnologia" id="tecnologia"> <label for="tecnologia">Tecnologia</label>
+    <input type="radio" name="profissão" value="financeiro" id="financeiro"> <label for="financeiro">Financeiro</label>
+    <input type="radio" name="profissão" value="saude" id="saude"> <label for="saude">Saúde</label>
+    <input type="radio" name="profissão" value="nenhuma" id="nenhuma"> <label for="nenhuma">Nenhuma</label>
+
+</fieldset>
+<br>
+<button>Salvar o meu formulário</button>
+
+    
+</body>
+</html>
